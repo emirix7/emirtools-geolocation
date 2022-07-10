@@ -32,8 +32,8 @@ map.save("location.html")
 print(ip.city)
 print(ip.latlng)
 
-url = "file://C:/Users/lenovo/Documents/aaa/location.html" # add your location.html file
+url = "file://C:/Users/lenovo/Documents/aaa/location.html" # add your location.html file path if do not change you cant see location on map!
 webbrowser.open(url,new=2)
 
 time.sleep(2)
-os.remove("C:/Users/lenovo/Documents/aaa/location.html")
+os.remove("C:/Users/lenovo/Documents/aaa/location.html") # add location.html path needs for deleting old location.html file
